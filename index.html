@@ -8,23 +8,25 @@
 		<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
 		<link rel="stylesheet" type="text/css" href="css/animate.css">
-		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="css/icommon.css">
-		<link rel="stylesheet" type="text/css" href="css/slick.css">
-		<link rel="stylesheet" type="text/css" href="css/slick-theme.css">
 		<link rel="stylesheet" type="text/css" href="css/queries.css">
 		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/slick.css"/>
+  		<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+		<link rel="stylesheet" type="text/css" href="css/utilities.css">
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+		 
 	</head>
 	<body>
 		<div class="container-fluid">
 			<header>
-				<div class="row">
+				<div class="row bg-gray">
 					<div class="col-md-3">
-						<p>Default Welcome Msg!</p>
+						<p class="arsenic  mt-7 ml-3">Default Welcome Msg!</p>
 					</div>
 					<div class="col-md-3">
 						<div class="dropdown"> <!--dropdown lengua-->
-  							<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"> <img src="img/flag1.png" alt="flag1"> Language
+  							<button class="btn  dropdown-toggle fondodrop mt-5 ml-in arsenic" type="button" data-toggle="dropdown"> <img src="img/flag1.png" alt="flag1"> Language
   								<span class="caret"></span> 
   							</button>
   							<ul class="dropdown-menu">
@@ -35,7 +37,7 @@
 					</div>
 					<div class="col-md-3">
 						<div class="dropdown"> <!--dropdown Currency-->
-							<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"> <img src="img/dinero.png" alt="dinero"> Currency
+							<button class="btn  dropdown-toggle fondodrop mt-5 ml-70 arsenic" type="button" data-toggle="dropdown"> <img src="img/dinero.png" alt="dinero"> Currency
   								<span class="caret"></span> 
   							</button>
   							<ul class="dropdown-menu">
@@ -46,7 +48,7 @@
 					</div>
 					<div class="col-md-3">
 						<div class="dropdown">  <!--userdropdown-->
-							<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"> <img src="img/user.png" alt="user"> MyAccount
+							<button class="btn  dropdown-toggle fondodrop mt-5 arsenic pb-5" type="button" data-toggle="dropdown"> <img src="img/user.png" alt="user"> MyAccount
   								<span class="caret"></span> 
   							</button>
   							<ul class="dropdown-menu">
@@ -56,34 +58,56 @@
 						</div>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row mt-5 mb-5">
 					<div class="col-md-4">
-						<img src="img/clock.png" alt="clock">
-						<p>OPENING TIME</p>
-						<p>9.00 am-10.pm</p>
+						<img src="img/clock.png" alt="clock" class="ml-10 clock">
+						<p class="inl arsenic fontime">OPENING TIME </p>
+						<p class="arsenic ml-20 mt-"> 9.00 am-10.pm</p>
 					</div>
 					<div class="col-md-4">		
-						<img src="img/logo.png" alt="logo">		
+						<img src="img/logo.png" alt="logo" class="logo">		
 					</div>
 					<div class="col-md-4">
 						<form>
-                			<input type="text" value="Search" placeholder="Search">
+                			<input type="text" value="Search" placeholder="Search" class="search arsenic pd-2">
                 			<img src="img/magn.png" alt="magn">
               			</form>
             		</div>
 				</div>
 				<div class="row">
-					<div class="col-md-7">
-						<nav></nav>
+					<div class="col-md-9">
+						<nav class="navbar  "> <!--menudespegable-->
+            				<div class=navbar-header>
+              					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                					<span class="icon-bar"></span>
+                					<span class="icon-bar"></span>
+                					<span class="icon-bar"></span>
+             					 </button>
+            				</div>
+            				<div class="collapse navbar-collapse" id="myNavbar">
+              					<ul class="nav nav-tabs"> <!--elementosdelmenu-->
+                					<li role="presentation" class="active"><a href="#">HOME</a></li>
+                					<li role="presentation"><a href="#">CONTACT US</a></li>
+              					</ul>
+            				</div>
+          				</nav>
 					</div>
-					<div class="col-md-5">
+					<div class="col-md-3">
 						<div class="dropdown"></div>
 					</div>
 				</div>
 			</header>
 			<section> <!--Primercarrusel-->
-				<p>AUTUMN/WINTER LOOKBOOK</p>
-				<P>-2016 colecction-</P>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="one-time">
+							<div class="inl">
+								<img src="img/slider1.jpg" alt="slider">
+							</div>
+							<div class="inl">
+								<img src="img/slider2.jpg">
+							</div>
+							
 			</section>
 			<section> <!--segundasection-->
 				<div class="row">
@@ -385,10 +409,19 @@
 
 
 
-		<script src="js/respond.js"></script>
-		<script src="js/jquery-1.11.3.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<script src="js/slick.min.js"></script>
-		<script type="text/javascript"> </script>
-	</body>
-	</html>
+				<script src="js/respond.js"></script>
+				<script src="js/jquery-1.11.3.min.js"></script>
+				<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  				<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+				<script src="js/bootstrap.min.js"></script>
+				<script src="js/slick.min.js"></script>
+				<script type="text/javascript">
+	    		$(document).ready(function(){
+				$('.one-time').slick({
+  dots: true,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 1,
+  adaptiveHeight: true
+});
+  	</script>

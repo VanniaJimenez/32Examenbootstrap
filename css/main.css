@@ -1,7 +1,73 @@
-.inl-block {
-	display: inline-block;
+
+
+/*header*/
+
+.bg-gray{
+    background-color: #F2F2F2;
 }
 
-.red {
-	color: red;
+.fondodrop {
+	background-color: transparent;
+}
+
+.arsenic {
+	color:#898989;
+}
+
+.mt-7 {
+	margin-top: 7%;
+}
+
+.mt-5 {
+	margin-top: 5%;
+}
+
+.ml-70 {
+	margin-left: 70%;
+}
+
+.ml-in {
+	margin-left: 140%;
+}
+
+.mt-in {
+	margin-top: 10%;
+}
+
+.mb-10 {
+	margin-bottom: 10%;
+}
+
+.ml-10 {
+	margin-left: 10%;
+}
+
+.ml-20 {
+	margin-left: 20%;
+}
+
+.pt-10 {
+	padding-top: 10%;
+}
+.clock {
+	width: 9%;
+}
+
+.mt- {
+	margin-top: -4%;
+}
+
+.search {
+	border-style: none;
+	border: solid 1px #F2F2F2;
+
+}
+.pd-2 {
+	padding: 2%;
+}
+.fontime {
+	font-size: 2em;
+}
+.logo {
+	width: 60%;
 }
