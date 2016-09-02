@@ -5,7 +5,6 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minium-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-		<link rel="stylesheet" type="text/css" href="ccs/main.css">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
 		<link rel="stylesheet" type="text/css" href="css/animate.css">
@@ -14,18 +13,47 @@
 		<link rel="stylesheet" type="text/css" href="css/slick.css">
 		<link rel="stylesheet" type="text/css" href="css/slick-theme.css">
 		<link rel="stylesheet" type="text/css" href="css/queries.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
 	</head>
 	<body>
 		<div class="container-fluid">
 			<header>
 				<div class="row">
-					<div class="col-md-6">
+					<div class="col-md-3">
 						<p>Default Welcome Msg!</p>
 					</div>
-					<div class="col-md-6">
-						<div class="dropdown"> </div>
-						<div class="dropdown"> </div>
-						<div class="dropdown"> </div>
+					<div class="col-md-3">
+						<div class="dropdown"> <!--dropdown lengua-->
+  							<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"> <img src="img/flag1.png" alt="flag1"> Language
+  								<span class="caret"></span> 
+  							</button>
+  							<ul class="dropdown-menu">
+								<li><a href="#"> <img src="img/flag1.png" alt="flag1"> English</a></li>
+								<li><a href="#"> <img src="img/flag2.png" alt="flag2"> French</a></li>
+							</ul>
+						</div> <!--finprimerdropdown-->
+					</div>
+					<div class="col-md-3">
+						<div class="dropdown"> <!--dropdown Currency-->
+							<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"> <img src="img/dinero.png" alt="dinero"> Currency
+  								<span class="caret"></span> 
+  							</button>
+  							<ul class="dropdown-menu">
+								<li><a href="#"> <img src="img/flag1.png" alt="flag1"> English</a></li>
+								<li><a href="#"> <img src="img/flag2.png" alt="flag2"> French</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="dropdown">  <!--userdropdown-->
+							<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"> <img src="img/user.png" alt="user"> MyAccount
+  								<span class="caret"></span> 
+  							</button>
+  							<ul class="dropdown-menu">
+								<li><a href="#"> <img src="img/flag1.png" alt="flag1"> English</a></li>
+								<li><a href="#"> <img src="img/flag2.png" alt="flag2"> French</a></li>
+							</ul>
+						</div>
 					</div>
 				</div>
 				<div class="row">
@@ -38,8 +66,11 @@
 						<img src="img/logo.png" alt="logo">		
 					</div>
 					<div class="col-md-4">
-						<form></form>
-					</div>
+						<form>
+                			<input type="text" value="Search" placeholder="Search">
+                			<img src="img/magn.png" alt="magn">
+              			</form>
+            		</div>
 				</div>
 				<div class="row">
 					<div class="col-md-7">
@@ -285,12 +316,12 @@
 				<div class="row">
 					<div class="col-md-3">
 						<p><b>ACCESORIES</b></p>
-						<p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do sunt in culpa qui officia deserunt mollit anim id est laborum.></p>
-						<img src="">
-						<img src="">
-						<img src="">
-						<img src="">
-						<img src="">
+						<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						<img src="img/face.png" alt="face">
+						<img src="img/tuit.png" alt="tuit">
+						<img src="img/wifi.png" alt="wifi">
+						<img src="img/skype.png" alt="skype">
+						<img src="img/pelota.png" alt="pelota">
 					</div>
 					<div class="col-md-2">
 						<p><b>MY ACCOUNT</b></p>
@@ -298,10 +329,53 @@
 							<li>My account</li>
 							<li>My account</li>
 							<li>My account</li>
-							
+							<li>My account</li>
 						</ul>
-				
+					</div>
+					<div class="col-md-2">
+						<p><b>INFORMATION</b></p>
+						<ul>
+							<li>My account</li>
+							<li>My account</li>
+							<li>My account</li>
+							<li>My account</li>
+						</ul>
+					</div>
+					<div class="col-md-2">
+						<p><b>EXTRAS</b></p>
+						<ul>
+							<li>My account</li>
+							<li>My account</li>
+							<li>My account</li>
+							<li>My account</li>
+						</ul>
+					</div>
+					<div class="col-md-3">
+						<p><b>ABOUT US</b></p>
+						<img src="img/location-pointer.png" alt="location">
+						<p>8091 Marmora Road, Glasgow D0956, NY.</p>
+						<img src="img/phone-receiver.png" alt="phone">
+						<p>8091 Marmora Road, Glasgow D0956, NY.</p>
+						<img src="img/mail.png" alt="mail">
+						<p>8091 Marmora Road, Glasgow D0956, NY.</p>
+					</div>
+				</div>
 			</section>
+			<footer> <!--final:)-->
+				<div class="row">
+					<div class="col-md-6">
+						<p>Copyright &copy 2015 <span>Bootexperts.</span>All Rights Reserved.</p>
+					</div>
+					<div class="col-md-6">
+						<img src="img/payment.png" alt="payment">
+					</div>
+				</div>	
+			</footer>
+						
+
+
+				
+			
 
 
 
